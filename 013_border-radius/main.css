@@ -1,0 +1,28 @@
+div {
+    width: 100px;
+    height:100px;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../01_float_img/03_overflow-auto/surf.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 10px groove orange;
+    border-radius: 100%;
+
+}
+
+.surferone {
+    border: 10px dashed orange;
+}
+
+.surfertwo {
+    border: 10px dotted orange;
+}
+
+.surferthree {
+    border: 10px double orange;
+}
+
