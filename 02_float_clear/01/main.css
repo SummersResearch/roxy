@@ -5,11 +5,11 @@ div {
     height: 100px;
     margin: 1em;
     border: 2px solid green;
-    background-color: red;
+    background-color: blue;
 }
 
 section {
-    border: 2px solid blue;
+    border: 2px solid gold;
 }
 
 #hanh {
