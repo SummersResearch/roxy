@@ -4,7 +4,7 @@ div {
     background-color: red;
     border-radius: 10px;
     border: 20px groove gold;
-    background-image: url("../../01_float_img/01/surf.jpeg");
+    background-image: url("../../001_float_img/01/surf.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
