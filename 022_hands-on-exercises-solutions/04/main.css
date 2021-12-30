@@ -1,0 +1,21 @@
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: black;
+}
+
+div {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
