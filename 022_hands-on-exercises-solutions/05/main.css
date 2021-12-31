@@ -3,3 +3,7 @@ p:first-letter {
     font-size: 150%;
 
 }
+
+p:first-line {
+    color: red;
+}
