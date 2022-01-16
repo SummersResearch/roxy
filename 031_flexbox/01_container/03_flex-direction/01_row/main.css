@@ -1,0 +1,17 @@
+/*flex container*/
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*flex items*/
+div {
+    /*formatting*/
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 1em;
+    background-color: darkgray;
+    text-align: center;
+}

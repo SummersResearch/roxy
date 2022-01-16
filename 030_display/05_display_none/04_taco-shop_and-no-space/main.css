@@ -14,9 +14,14 @@ nav {
     vertical-align: top;
     display: inline-block;
     width: 25%;
+    list-style-type: none;
+
 }
 
 main {
     display: inline-block;
     width: 75%;
 }
+
+
+
