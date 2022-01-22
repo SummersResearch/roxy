@@ -1,33 +1,21 @@
 body {
     display: flex;
-    flex-flow: row wrap;
+    /*flex-flow: row wrap;*/
     /*formatting*/
     border: 5px solid red;
-
+    height: 775px;
 }
 
 div {
     /*formatting*/
-    width: 200px;
     height: 100px;
-    margin: 1em;
+    width: 300px;
     border: 1px solid red;
+    margin: 1em;
     background-color: darkgray;
     text-align: center;
-
 }
 
-#tres {
-    order: 1;
+.otras {
+    align-self: flex-end;
 }
-
-#dos {
-    order: 2;
-}
-
-#uno {
-    order: 3;
-}
-
-
-

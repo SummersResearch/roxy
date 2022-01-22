@@ -1,20 +1,22 @@
 body {
     display: flex;
-    flex-flow: row wrap;
+
 }
 
 div {
     border: 2px solid black;
     height: 100px;
+    width: 400px;
+    flex-basis: auto;
+
 }
 
 .flex1 {
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .flex2 {
-    flex-grow: 2;
-    background-color: darkgray;
-    /*width: 100%;*/
+    flex-grow: 8;
+    flex-shrink: 8;
 }
-
