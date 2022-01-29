@@ -1,0 +1,21 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*formatting*/
+    border: 10px solid red;
+    background-image: url("https://media.nationalgeographic.org/assets/photos/000/206/20669.jpg");
+    color: whitesmoke;
+}
+
+p {
+    font-size: 4rem;
+}

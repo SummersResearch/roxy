@@ -1,0 +1,19 @@
+div {
+    border: 40px groove orange;
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+    background-image: url("golds.png");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 30px;
+    color: navajowhite;
+    padding: 20px;
+
+}
+
+

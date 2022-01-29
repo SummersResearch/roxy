@@ -1,0 +1,19 @@
+.c1 {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.c2 {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.c3 {
+    background-color: lightblue;
+    color: whitesmoke;
+}
+
+.c4 {
+    border: 2px solid red;
+    box-sizing: border-box;
+}

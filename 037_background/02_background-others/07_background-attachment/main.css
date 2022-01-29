@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20vh;
+    /*formatting*/
+    height: 100vh;
+    background-image: url("IMG_4180.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-size: 72px;
+    color: navajowhite;
+
+}

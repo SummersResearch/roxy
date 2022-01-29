@@ -1,0 +1,9 @@
+div {
+    background-image: url("golds.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 20px ridge orange;
+    width: 600px;
+    height: 600px;
+
+}

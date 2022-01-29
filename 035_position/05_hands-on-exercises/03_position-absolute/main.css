@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 2px solid red;
+}
+
+#one {
+    position: relative;
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    text-align: left;
+    color: navajowhite;
+    border: 2px solid black;
+
+
+}
+
+#two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    right: 20px;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 100px;
+    color: navajowhite;
+    border: 2px solid black;
+}

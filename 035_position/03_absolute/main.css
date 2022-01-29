@@ -1,0 +1,37 @@
+html {
+    border: 2px solid blue;
+}
+
+body {
+    width: 40%;
+    border: 2px solid green;
+    /*position: relative;*/
+
+}
+
+div {
+    border: 2px solid red;
+    color: white;
+
+}
+
+#one {
+    /*comment out position*/
+    /*absolute is positioned*/
+    position: relative;
+    /*top: 100px;*/
+    /*formatting*/
+    width: 600px;
+    height: 400px;
+    background-color: darkgray;
+}
+
+#two {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    /*formatting*/
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+}

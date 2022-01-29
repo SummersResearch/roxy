@@ -1,0 +1,17 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*formatting*/
+    border: 10px solid red;
+    background-image: url("https://mlclell2icph.i.optimole.com/6Nm7MDo.mh7h~566c/w:1500/h:1125/q:80/https://www.islands.com/wp-content/uploads/sites/13/2021/09/four-seasons-bora-bora.jpg");
+    color: whitesmoke;
+    font-size: 52px;
+}

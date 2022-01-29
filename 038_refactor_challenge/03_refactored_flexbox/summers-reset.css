@@ -1,0 +1,90 @@
+* {
+    /*border: 1px solid hotpink; important!  Used for debugging.*/
+}
+
+
+body {
+    font-size: 1.6rem;
+    background-image: url("IMG_4181.JPG");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #094562;
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+li {
+    margin: 2rem;
+    /*padding: 0.50rem;*/
+    /*border: 1px solid blue;*/
+    /*border-radius: 5px;*/
+    width: 100px;
+    height: 25px;
+    list-style-type: none;
+    /*text-align: center;*/
+    /*color: whitesmoke;*/
+
+}
+
+/*added*/
+a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*added*/
+a:hover {
+    color: red;
+    background-color: ghostwhite;
+}
+
+section {
+    height: 25rem;
+    text-align: center;
+    margin: 2rem;
+    /*border: 10px solid blue;*/
+}
+
+#s1 {
+    /*background-color: orange;*/
+    background-image: url("IMG_4180.JPG");
+    background-position: center;
+
+}
+
+#s2 {
+    /*background-color: darkgrey;*/
+    background-image: url("IMG_4181.JPG");
+    background-position: center;
+}
+
+#s3 {
+    background-color: lightblue;
+}
+
+#s4 {
+    background-color: navajowhite;
+}

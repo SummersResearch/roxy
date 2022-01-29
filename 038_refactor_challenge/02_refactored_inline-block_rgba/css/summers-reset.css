@@ -1,0 +1,54 @@
+body {
+    font-size: 1.6rem;
+    background-image: url("IMG_4180.JPG");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*BEFORE REFACTOR:*/
+    /*background: url (img/4180.jpg) no-repeat to center fixed*/
+    /*background-size: cover;*/
+}
+
+h1 {
+    color: #094562;
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+nav {
+    width: 50%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+li:hover {
+    color: red;
+}
+
+section {
+    height: 25rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+#s1 {
+    background-color: orange;
+}
+
+#s2 {
+    background-color: darkgrey;
+}
+
+#s3 {
+    background-color: crimson;
+}
+
+#s4 {
+    background-color: navajowhite;
+}

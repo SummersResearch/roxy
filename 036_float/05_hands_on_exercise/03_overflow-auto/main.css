@@ -1,0 +1,17 @@
+div {
+    border: 4px solid black;
+    overflow: auto;
+}
+
+#right {
+    float: right;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#left {
+    float: left;
+    border: 2px solid black;
+    margin: 1em;
+}
+
