@@ -1,0 +1,18 @@
+#idx-atf {
+    background-image: url("background-photo-mobile-devices (1).jpg");
+
+}
+
+#idx-atf > div {
+    height: 20vh;
+}
+
+h1 {
+    font-size: 2rem;
+
+}
+
+h3 {
+    margin-top: .5rem;
+
+}

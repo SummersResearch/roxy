@@ -1,0 +1,30 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+body {
+    border: 4px solid hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 1rem;
+    color: red;
+    animation-name: change-text-size;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes change-text-size {
+    0%{font-size: 1rem}
+    100%{font-size: 20rem}
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<svg viewBox="0 -1 10 7" xmlns="http://www.w3.org/2000/svg">
+  <!-- Effect of the "miter" value -->
+  <path d="M1,5 l2,-3 l2,3" stroke="red" fill="none"
+        stroke-linejoin="miter" />
+
+  <path d="M7,5 l0.75,-3 l0.75,3" stroke="black" fill="none"
+        stroke-linejoin="miter" />
+
+    <path d="M0,0 h10" stroke="red" stroke-dasharray="0.05"  stroke-width="0.025"/>
+    <g>
+        <path d="M1,5 l2,-3 l2,3" stroke="pink" fill="none" stroke-width="0.025" />
+        <circle cx="1" cy="5" r="0.05" fill="blue" />
+        <circle cx="3" cy="2" r="0.05" fill="blue" />
+        <circle cx="5" cy="5" r="0.05" fill="pink" />
+
+        <path d="M7,5 l0.75,-3 l0.75,3" stroke="pink" fill="none" stroke-width="0.025" />
+        <circle cx="7"    cy="5" r="0.05" fill="pink" />
+        <circle cx="7.75" cy="2" r="0.05" fill="pink" />
+        <circle cx="8.5"  cy="5" r="0.05" fill="pink" />
+    </g>
+</svg>
+
+</body>
+</html>

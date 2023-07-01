@@ -1,0 +1,164 @@
+html {
+    font-size: 1vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-width {
+    width: 60vw;
+}
+
+header {
+    /*arrange content*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*format*/
+    margin-top: 1rem;
+    border: 1px solid red;
+    /*background-color: red;*/
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    width: 10%;
+    margin: 1rem 1.5%;
+    height: 1.5rem;
+    border: 1px solid black;
+    background-color: gray;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+header nav div {
+    width: 20%;
+    border-bottom: 2px solid gray;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-image: url("bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+
+
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, h3 {
+    /*color: blue;*/
+}
+
+h2 {
+    font-family: 'Open sans', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    padding-bottom: 1px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+#order {
+    text-align: left;
+    display: block;
+    width: 75%;
+    /*border: 5px solid deepskyblue;*/
+
+}
+
+#dos {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Open sans', sans-serif;
+    margin-top: 1rem;
+}
+
+#three {
+    width: 300px;
+    height: 100px;
+    background-color: #57727c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 2rem;
+    border: 2px double blue;
+    border-radius: 10px 20px 0 20px;
+    box-shadow: 3px 3px 4px 4px black;
+}
+
+.one {
+    /*color: red;*/
+}
+
+.image-text {
+    font-size: 5rem;
+}
+
+#right {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+    box-shadow: 3px 3px 5px 5px black;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

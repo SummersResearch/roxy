@@ -1,0 +1,68 @@
+html, body, div, h1, h2, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    color: #86969C;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+
+}
+
+button {
+    width: 20%;
+    font-size: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    color: #FFF;
+    background-color: #4EBBE4;
+
+}
+
+/*SMILE*/
+
+.icon {
+    width: 1em; height: 1em;
+    fill: currentColor;
+}
+
+.icon-smile {
+    color: #bcd2da;
+    font-size: 20rem;
+    margin-bottom: .5rem;
+    animation-name: rot;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rot {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}

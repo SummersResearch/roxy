@@ -1,0 +1,55 @@
+header  {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div, header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    /*padding: 1rem;*/
+    /*border: 1px solid gold;*/
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /*TEMPORARY*/
+    background-color: transparent;
+}
+
+header div {
+    text-align: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    border: 1px solid gold;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 5px;
+    color: deepskyblue;
+    /*padding: 0 1em 0em;*/
+    /*margin: .2em;*/
+
+}
+
+#idx-atf { background-image: url("background-photo-mobile-devices (1).jpg")}
+
+#idx-atf > div {
+    height: 18vh;
+}
+
+h1 { font-size: 3rem;
+
+}
+
+h3 { margin-top: .4rem; }
